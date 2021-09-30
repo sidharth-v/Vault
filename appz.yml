@@ -1,7 +1,7 @@
 app:
     name: Vault
     code: VAULT
-    notify: appz@ecloudcontrol.com
+    notify: sidhu.vengathattil@gmail.com
 
 build:
     version: 0.4
@@ -11,7 +11,7 @@ build:
     image_template: vault-1.2
 
 deploy:
-    context: alpha/DEV
+    context: sidharth-v/DEV
     type: statefulset
     ingress: none
     replicas: 1
