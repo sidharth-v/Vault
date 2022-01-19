@@ -1,7 +1,7 @@
 app:
     name: Vault
     code: VAULT
-    notify: sidhu.vengathattil@gmail.com
+    notify: svengathattil@ecloudcontrol.com
 
 build:
     version: 0.4
