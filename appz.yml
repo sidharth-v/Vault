@@ -21,10 +21,12 @@ deploy:
 
 volumes:
   - claim: vault-home
+    class: microk8s-hostpath
     mount: /appz/home
     name: home
     size: 5Gi
   - claim: vault-data
+    class: microk8s-hostpath
     mount: /appz/data
     name: data
     size: 5Gi
